@@ -1,0 +1,19 @@
+# Arquivo sensível – NUNCA subir
+service_account.json
+
+# Ambiente virtual
+venv/
+.venv/
+
+# Arquivos temporários / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Configurações de editor
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
