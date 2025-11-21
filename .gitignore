@@ -1,19 +1,25 @@
-# Arquivo sensível – NUNCA subir
+# Ambientes virtuais
+venv/
+env/
+.bancoalunos/
+*.pyc
+__pycache__/
+
+# VSCode
+.vscode/
+
+# Arquivos sensíveis
 service_account.json
 
-# Ambiente virtual
-venv/
-.venv/
+# Cache
+*.log
+*.sqlite3
 
-# Arquivos temporários / cache
-__pycache__/
-*.pyc
-*.pyo
+# Build
+dist/
+build/
+*.egg-info/
 
-# Configurações de editor
-.vscode/
-.idea/
-
-# Arquivos do sistema
+# Sistemas
 .DS_Store
 Thumbs.db
