@@ -1,24 +1,22 @@
-```markdown
 # DBCloud Simples
 
-Projeto simples para demonstrar o uso do **Google Cloud** (ou outro provedor de nuvem) como gerenciador de banco de dados.
+Bem-vindo ao repositório **DBCloud Simples**, criado para demonstrar como usar Google Cloud (ou outro provedor) como banco de dados remoto.
 
 ---
 
 ## 🎯 Objetivo
 
-- Criar uma base de dados na nuvem.  
-- Conectar a aplicação Python a esse banco.  
-- Fazer operações básicas de CRUD (criar, ler, atualizar, deletar).
+- Criar e conectar uma aplicação Python a um banco na nuvem.
+- Realizar operações CRUD simples.
+- Ensinar práticas de uso de variáveis de ambiente e credenciais.
 
 ---
 
 ## 💻 Tecnologias
 
-- Python  
-- Biblioteca de cliente para Banco de Dados da nuvem (ex: `google-cloud-sql`, `psycopg2`)  
-- SQL ou NoSQL (dependendo do design)  
-- Variáveis de ambiente para credenciais
+- Python
+- SQL
+- Banco de dados em nuvem
 
 ---
 
@@ -26,6 +24,11 @@ Projeto simples para demonstrar o uso do **Google Cloud** (ou outro provedor de 
 
 1. Clone o repositório:
 
-   ```bash
    git clone https://github.com/alvespinho/dbcloud_simples.git
    cd dbcloud_simples
+
+2. Configure o arquivo `.env`.
+
+3. Execute:
+
+   python main.py
