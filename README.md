@@ -1,8 +1,31 @@
-🎯 Objetivos
+```markdown
+# DBCloud Simples
 
-1. Criar um projeto no Google Cloud
-2. Ativar Google Sheets API
-3. Criar uma Service Account
-4. Gerar uma chave JSON
-5. Criar e compartilhar uma planilha
-6. Usar Python para acessar e escrever na planilha
+Projeto simples para demonstrar o uso do **Google Cloud** (ou outro provedor de nuvem) como gerenciador de banco de dados.
+
+---
+
+## 🎯 Objetivo
+
+- Criar uma base de dados na nuvem.  
+- Conectar a aplicação Python a esse banco.  
+- Fazer operações básicas de CRUD (criar, ler, atualizar, deletar).
+
+---
+
+## 💻 Tecnologias
+
+- Python  
+- Biblioteca de cliente para Banco de Dados da nuvem (ex: `google-cloud-sql`, `psycopg2`)  
+- SQL ou NoSQL (dependendo do design)  
+- Variáveis de ambiente para credenciais
+
+---
+
+## 🚀 Como usar
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/alvespinho/dbcloud_simples.git
+   cd dbcloud_simples
